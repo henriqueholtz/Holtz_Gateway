@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holtz_Gateway.API", "Holtz_Gateway.API\Holtz_Gateway.API.csproj", "{503BD312-BD1D-4499-B9A4-946FBCB1DB86}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service.01", "Service.01", "{38392715-C49B-4411-BB6F-33D2486AE59E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service.02", "Service.02", "{A5B67A5F-2B84-4E47-8521-52DB3EAE887A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holtz_Gateway.ServiceApi.01", "Service.01\Holtz_Gateway.ServiceApi.01\Holtz_Gateway.ServiceApi.01.csproj", "{3FDE2160-7016-49CD-ACC8-40DEC011DE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holtz_Gateway.ServiceApi.02", "Service.02\Holtz_Gateway.ServiceApi.02\Holtz_Gateway.ServiceApi.02.csproj", "{81041D86-E4D0-4148-8EAF-23D0AB969EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,21 @@ Global
 		{503BD312-BD1D-4499-B9A4-946FBCB1DB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{503BD312-BD1D-4499-B9A4-946FBCB1DB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{503BD312-BD1D-4499-B9A4-946FBCB1DB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDE2160-7016-49CD-ACC8-40DEC011DE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDE2160-7016-49CD-ACC8-40DEC011DE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDE2160-7016-49CD-ACC8-40DEC011DE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDE2160-7016-49CD-ACC8-40DEC011DE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81041D86-E4D0-4148-8EAF-23D0AB969EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81041D86-E4D0-4148-8EAF-23D0AB969EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81041D86-E4D0-4148-8EAF-23D0AB969EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81041D86-E4D0-4148-8EAF-23D0AB969EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FDE2160-7016-49CD-ACC8-40DEC011DE32} = {38392715-C49B-4411-BB6F-33D2486AE59E}
+		{81041D86-E4D0-4148-8EAF-23D0AB969EF9} = {A5B67A5F-2B84-4E47-8521-52DB3EAE887A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7576C518-7CDE-4334-BD66-314C3BF9648A}
