@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "44322"
+          "Port": 44349
         }
       ],
       "UpstreamPathTemplate": "/api1/{everything}",
@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "44386"
+          "Port": 44398
         }
       ],
       "UpstreamPathTemplate": "/api2/{everything}",

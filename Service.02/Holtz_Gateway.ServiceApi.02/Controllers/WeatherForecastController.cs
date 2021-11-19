@@ -3,7 +3,6 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Holtz_Gateway.ServiceApi._02.Controllers
 {
@@ -29,6 +28,7 @@ namespace Holtz_Gateway.ServiceApi._02.Controllers
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
+                NameApi = "Holtz_Gateway.ServiceApi.02",
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]

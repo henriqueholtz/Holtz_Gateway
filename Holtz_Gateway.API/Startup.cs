@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
 
 namespace Holtz_Gateway.API
 {
@@ -43,6 +44,7 @@ namespace Holtz_Gateway.API
                     await context.Response.WriteAsync("API GATEWAY IS RUNNING");
                 });
             });
+            app.UseOcelot().Wait();
         }
     }
 }
